@@ -32,7 +32,7 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="../footer/footer.css">
-  <link rel="stylesheet" href="donatestyle.css">
+  <link rel="stylesheet" href="../HomePage/donatestyle.css">
   <link rel="stylesheet" href="../navbar/navstyles.css">
   <link rel="stylesheet" href="style.css">
 
@@ -77,7 +77,7 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
           <a class="nav-links" href="../EventPage/event.php">Events</a>
         </li>
         <li>
-          <a class="nav-links" href="../Contact/contact.html">contact</a>
+          <a class="nav-links" href="../Gallery/gallery.php">Gallery</a>
         </li>
         
         <?php
@@ -361,7 +361,7 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
                     <a href="#">Services</a>
                   </li> -->
                   <li>
-                    <a href="#">Events</a>
+                    <a href="../EventPage/event.php">Events</a>
                   </li>
                   <li>
                     <a href="#">Our Team</a>
@@ -369,10 +369,10 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
                 </ul>
                 <ul>
                   <li>
-                    <a href="#">Contact us</a>
+                    <a href="../Gallery/gallery.php">Gallery</a>
                   </li>
                   <li>
-                    <a href="#">Blog</a>
+                    <a href="https://www.linkedin.com/in/swarnit-sinha-114b44198/">Developers</a>
                   </li>
                   <li>
                     <a href="../Login/login.html" target="_blank">AdminLogin</a>
