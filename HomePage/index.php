@@ -49,9 +49,9 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
 <body>
   <div class="topSpace">
     <ul>
-      <li><i class="fas fa-envelope-square"></i> email@gmail.com</li>
+      <li><i class="fas fa-envelope-square"></i> aungaridhamtrust@gmail.com</li>
       <li><i class="fas fa-phone-square-alt"></i>542157899</li>
-      <li><a href=" ../Donate/donate.html"><button class="btn-primary" >Donate</button></a></li>
+      <li><a href=" ../Donate/donate.html" target="blank"><button class="btn-primary" >Donate</button></a></li>
 
     </ul>
   </div>
@@ -68,7 +68,7 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
       <!-- links -->
       <ul class="links">
         <li>
-          <a class="nav-links activeNow" href="index.html">home</a>
+          <a class="nav-links activeNow" href="#">home</a>
         </li>
         <li>
           <a class="nav-links" href="../About/about.html">about</a>
@@ -138,24 +138,22 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="crousal1.jpg" class="d-block w-100" alt="...">
+        <img  src="../Images/image7.jpeg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1>A Non-Govermental Organization</h1>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h1 style="color: yellow;">SURYA BHAGWAN KI NAGRI ME SABHI KI MANOKAMNA PURN HO</h1>
+          
         </div>
       </div>
       <div class="carousel-item">
-        <img src="crousal2.jpg" class="d-block w-100" alt="...">
+        <img src="../Images/image6.jpeg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Second slide label</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h1 style="color: yellow;">SURYA BHAGWAN KI NAGRI ME SABHI KI MANOKAMNA PURN HO</h1>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="crousal2.jpg" class="d-block w-100" alt="...">
+        <img src="../Images/image3.jpeg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Third slide label</h1>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h1 style="color: yellow;">SURYA BHAGWAN KI NAGRI ME SABHI KI MANOKAMNA PURN HO</h1>
         </div>
       </div>
     </div>
@@ -172,8 +170,8 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
 
   <!-- About Section for Phone -->
   <div class="container about">
-    <h1><span class="badge bg-info my-4">Aunghari Dham Trust</span></h1>
-    <h2><span class="badge bg-light text-dark my-2">A trust by Aunghari</span></h2>
+    <h1><span class="badge bg-info my-4">Aungari Dham Trust</span></h1>
+    <h2><span class="badge bg-light text-dark my-2">Come together to make a healthy society</span></h2>
     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, blanditiis?</p> -->
   </div>
 
@@ -182,17 +180,16 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
     <div class="container col-lg-8 col-sm-12 ourmission">
       <h2><u>Our Mission</u></h2>
 
-      <p>We started this journey to help the poors. By giving them foods an d clothes. We do this with donations of
-        common people.</p>
+      <p>We started this journey to make a change in the society, by organizing different social programs to help society.</p>
 
     </div>
     <!-- image -->
     <div class="container col-lg-4 imgcontainer">
       <div class="ourmissionImage w-50">
-        <img src="poor.jpg" alt="">
-        <div class="missionImageOverlay">
+        <img src="../Images/Bhagwan.jpeg" alt="God" height="350px" width="350px">
+        <!-- <div class="missionImageOverlay">
           <h4>Help Us!!!</h4>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -221,15 +218,15 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="https://source.unsplash.com/1600x1000/?happy,animal" class="d-block w-100" alt="...">
+              <img src="../Images/image5.jpeg" class="d-block w-100" alt="..." height="400px">
             </div>
             <div class="carousel-item">
               
-              <img src="https://source.unsplash.com/1600x1000/?poor,man" class="d-block w-100" alt="...">
+              <img src="../Images/Bhagwan.jpeg" class="d-block w-100" alt="..." height="400px">
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
               <img src="https://source.unsplash.com/1600x1000/?happy,men" class="d-block w-100" alt="...">
-            </div>
+            </div> -->
           </div>
           <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -245,14 +242,14 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
 
       <div class="col-lg-4 col-sm-6 col-12 my-2">
         <div class="thumbnail galleryItem">
-          <img src="../Images/tree.jpg" alt="" class="img-fluid">
+          <img src="../Images/card.jpeg" alt="" class="img-fluid" height="400px">
         </div>
 
       </div>
 
       <div class="col-lg-4 col-sm-6 col-12 my-2 thirdImage">
         <div class="thumbnail galleryItem">
-          <img src="../Images/mountain  poster.jpg" alt="" class="img-fluid">
+          <img src="../Images/image7.jpeg" alt="" class="img-fluid" height="400px">
         </div>
       </div>
 
@@ -332,12 +329,12 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
             <div class="col-md-6">
               <div class="contact-us contact-us-last my-4">
                 <div class="contact-icon">
-                  <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                  <i class="fa fa-envelope-square" aria-hidden="true"></i>
                 </div>
                 <!-- End contact Icon -->
                 <div class="contact-info">
-                  <h3>95 711 9 5353</h3>
-                  <p>Give us a call</p>
+                  <h3>aungaridhamtrust@gmail.com</h3>
+                  <p>Give us a mail</p>
                 </div>
                 <!-- End Contact Info -->
               </div>

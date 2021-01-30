@@ -355,12 +355,8 @@ if($row_count>=$check_count){
   <footer id="dk-footer" class="dk-footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-lg-4">
+        <div class="col-md-12 col-lg-4 socialbox">
           <div class="dk-footer-box-info">
-            <a href="index.php" class="footer-logo">
-              <img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="footer_logo"
-                class="img-fluid">
-            </a>
 
             <div class="footer-social-link">
               <h3>Follow us</h3>
@@ -373,16 +369,6 @@ if($row_count>=$check_count){
                 <li>
                   <a href="#">
                     <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa fa-google-plus"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
@@ -421,12 +407,12 @@ if($row_count>=$check_count){
             <div class="col-md-6">
               <div class="contact-us contact-us-last my-4">
                 <div class="contact-icon">
-                  <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                  <i class="fa fa-envelope-square" aria-hidden="true"></i>
                 </div>
                 <!-- End contact Icon -->
                 <div class="contact-info">
-                  <h3>95 711 9 5353</h3>
-                  <p>Give us a call</p>
+                  <h3>aungaridhamtrust@gmail.com</h3>
+                  <p>Give us a mail</p>
                 </div>
                 <!-- End Contact Info -->
               </div>
@@ -450,7 +436,7 @@ if($row_count>=$check_count){
                     <a href="#">Services</a>
                   </li> -->
                   <li>
-                    <a href="#">Events</a>
+                    <a href="../EventPage/event.php">Events</a>
                   </li>
                   <li>
                     <a href="#">Our Team</a>
@@ -458,13 +444,13 @@ if($row_count>=$check_count){
                 </ul>
                 <ul>
                   <li>
-                    <a href="#">Contact us</a>
+                    <a href="../Gallery/gallery.php">Gallery</a>
                   </li>
                   <li>
-                    <a href="#">Blog</a>
+                    <a href="https://www.linkedin.com/in/swarnit-sinha-114b44198/" target="blank">Developers</a>
                   </li>
                   <li>
-                    <a href="#">Testimonials</a>
+                    <a href="../Login/login.php" target="_blank">AdminLogin</a>
                   </li>
                   <!-- <li>
                     <a href="#">Faq</a>
@@ -521,11 +507,11 @@ if($row_count>=$check_count){
       </div>
       <!-- End Copyright -->
       <!-- Back to top -->
-      <div id="back-to-top" class="back-to-top">
+      <!-- <div id="back-to-top" class="back-to-top">
         <button class="btn btn-dark" title="Back to Top" style="display: block;">
           <i class="fa fa-angle-up"></i>
         </button>
-      </div>
+      </div> -->
       <!-- End Back to top -->
   </footer>
   </div>
