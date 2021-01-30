@@ -273,7 +273,7 @@ $check_count = 1;
 $row_count = mysqli_num_rows(mysqli_query($db,"select * from previous_event "));
 
 if($row_count>=$check_count){
-      $photo_name = mysqli_fetch_array(mysqli_query($db,"select * from previous_event where id = '$check_count'"));
+      $photo_name = mysqli_fetch_array(mysqli_query($db,"select * from previous_event where id = '$row_count'"));
       $name = $photo_name['name'];
       $description = $photo_name['description'];
 }
@@ -288,9 +288,16 @@ if($row_count>=$check_count){
           <p class="card-text"><?php echo $description?></p>
         </div>
       </div>
+<?php
+      if($row_count>=$check_count){
+      $photo_name = mysqli_fetch_array(mysqli_query($db,"select * from previous_event where id = '$row_count'-'1'"));
+      $name = $photo_name['name'];
+      $description = $photo_name['description'];
+}
+?>
 
       <div class="card image-position col-lg-4 col-sm-12 mx-2 my-2">
-        <img src="1.jpg" class="card-img-top" alt="...">
+        <img src="upcoming_event/<?php echo $name?>" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cloths Distribution</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -298,9 +305,15 @@ if($row_count>=$check_count){
 
         </div>
       </div>
-
+      <?php
+      if($row_count>=$check_count){
+      $photo_name = mysqli_fetch_array(mysqli_query($db,"select * from previous_event where id = '$row_count'-'2'"));
+      $name = $photo_name['name'];
+      $description = $photo_name['description'];
+}
+?>
       <div class="card image-position col-lg-4 col-sm-12 mx-2 my-2">
-        <img src="1.jpg" class="card-img-top" alt="...">
+        <img src="upcoming_event/<?php echo $name?>" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Food Distribution</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
