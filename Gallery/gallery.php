@@ -59,16 +59,16 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
             <!-- links -->
             <ul class="links">
                 <li>
-                    <a class="nav-links" href="HomePage/index.php">home</a>
+                    <a class="nav-links" href="../HomePage/index.php">home</a>
                 </li>
                 <li>
-                    <a class="nav-links" href="About/about.html">about</a>
+                    <a class="nav-links" href="../About/about.html">about</a>
                 </li>
                 <li>
-                    <a class="nav-links" href="EventPage/event.php">Events</a>
+                    <a class="nav-links" href="../EventPage/event.php">Events</a>
                 </li>
                 <li>
-                    <a class="nav-links" href="contact.html">contact</a>
+                    <a class="nav-links" href="../Gallery/gallery.php">Gallery</a>
                     
                 </li>
 

@@ -225,7 +225,7 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
             </div>
             <div class="carousel-item">
               
-              <img src="poor.jpg" class="d-block w-100" alt="...">
+              <img src="https://source.unsplash.com/1600x1000/?poor,man" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
               <img src="https://source.unsplash.com/1600x1000/?happy,men" class="d-block w-100" alt="...">
@@ -372,10 +372,10 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
                     <a href="../Gallery/gallery.php">Gallery</a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/swarnit-sinha-114b44198/">Developers</a>
+                    <a href="https://www.linkedin.com/in/swarnit-sinha-114b44198/" target="blank">Developers</a>
                   </li>
                   <li>
-                    <a href="../Login/login.html" target="_blank">AdminLogin</a>
+                    <a href="../Login/login.php" target="_blank">AdminLogin</a>
                   </li>
                   <!-- <li>
                     <a href="#">Faq</a>

@@ -82,10 +82,10 @@ $check_admin = mysqli_num_rows(mysqli_query($db,"select * from admin where useri
           <a href="../About/about.html">about</a>
         </li>
         <li>
-          <a class="activeNow" href="../EventPage/event.html">Events</a>
+          <a class="activeNow" href="../EventPage/event.php">Events</a>
         </li>
         <li>
-          <a href="../Contact/contact.html">Contact</a>
+          <a href="../Gallery/gallery.php">Gallery</a>
         </li>
         <?php
 if($check_admin==1)
