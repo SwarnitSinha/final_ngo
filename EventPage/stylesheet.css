@@ -1,0 +1,148 @@
+*{
+    /* border: 1px solid red; */
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: hsl(210, 36%, 96%);
+}
+a{
+    text-decoration: none;
+}
+
+.title {
+    background-color: #764ba2;
+}
+
+.topSpace{
+    min-height: 10px;
+    max-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(210, 36%, 96%);
+}
+.topSpace ul{
+    display: flex ;
+    width: auto;
+    list-style-type: none;
+    padding: .1rem;
+    margin:0.05% 6%;
+    font-size: 1.5em;
+    box-sizing: border-box;
+}
+.topSpace ul li{
+    margin:2px 2rem;
+    padding: 1px 2px 1px 3px;
+    color: black;
+    
+}
+/* media query for topSpace */
+@media only screen and (max-width: 800px){
+    .topSpace{
+        display: none;
+    }
+}
+.navbar{
+    min-height: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul{
+    display: flex ;
+    width: auto;
+    list-style-type: none;
+    padding: .2rem;
+    /* margin: */
+    font-size: 1.3em;
+    box-sizing: border-box;
+}
+.navbar ul li{
+    margin:0px 2rem;
+    padding: 1px 3px 1px 3px;
+}
+.navbar-nav .nav-link{
+    color:white !important;
+}
+.navbar-nav .nav-link:hover{
+    color: red !important;
+    /* cursor: ; */
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 575;
+    font-size: 75px;
+    font-family: Display;
+   
+    color: #fff;
+    text-shadow: 2px 2px 3px rgb(3, 2, 2);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+          filter :brightness(1.2);
+
+  }
+
+.dark{
+    filter :brightness(0.75);
+}
+.eventImage{
+    /* position: fixed; */
+}
+
+
+
+.firstEventContainer{
+    /* background-color: skyblue; */
+
+}
+.upcomingEvents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstEventContainer h2{
+    color:;
+    text-align: center;
+    padding: 2rem;
+
+}
+.secondEventContainer{
+    /* background-color: #374045; */
+    background-image: radial-gradient(circle 8px at 80% 68%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle 8px at 24% 41%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle 6px at 34% 66%, rgb(45,45,45) 0%, rgb(45,45,45) 50%,transparent 50%, transparent 100%),radial-gradient(circle 6px at 56% 55%, rgb(45,45,45) 0%, rgb(45,45,45) 50%,transparent 50%, transparent 100%),radial-gradient(circle 6px at 11% 60%, rgb(45,45,45) 0%, rgb(45,45,45) 50%,transparent 50%, transparent 100%),radial-gradient(circle 6px at 6% 89%, rgb(45,45,45) 0%, rgb(45,45,45) 50%,transparent 50%, transparent 100%),radial-gradient(circle 6px at 0% 36%, rgb(45,45,45) 0%, rgb(45,45,45) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 20% 56%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 44% 56%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 0% 43%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 19% 33%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle at center left, rgb(35,35,35) 0%, rgb(35,35,35) 10%,transparent 10%, transparent 90%),linear-gradient(135deg, #55b3b1,#1a508b);
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 95%);
+    padding-bottom: 3rem;
+}
+.secondEventContainer h2{
+    /* margin: 0;
+    padding: 0;    */
+    text-align: center;
+    padding: 2rem;
+    color: whtie;
+    text-shadow:2px 2px 12px black);
+    z-index: 5;
+}
+.previousEvents{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* z-index: ; */
+}
+
+.card{
+    z-index: 1000;
+}
+
+.card:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+}
